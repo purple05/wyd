@@ -7,4 +7,8 @@ module.exports = function(app) {
         res.render('sec',{title: '秘书'});
     });
 
+    app.get('/sec_data',function (req,res) {
+        res.send("hello");
+    });
+
 };
